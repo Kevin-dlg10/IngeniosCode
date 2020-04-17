@@ -7,23 +7,6 @@ void showMenu();
 int main()
 {
     showMenu();
-
-
-
-
-    return 0;
-}
-void showMenu()
-{
-    char op;
-    cout << "Rational Numbers Calculator" << endl;
-    cout << endl;
-    cout <<"(A) ddition" <<endl;
-    cout <<"(S) ubtraction" << endl;
-    cout <<"(Q) uit" << endl;
-    cout << endl;
-    cout <<"Enter your option: ";
-    cin >> op;
     if( op == 'A' || op == 'a')
     {
         add();
@@ -40,5 +23,20 @@ void showMenu()
     {
         cout << "please enter options: A ,S ,or Q"
     }
-    
+
+    return 0;
 }
+void showMenu()
+{
+    char op;
+    cout << "Rational Numbers Calculator" << endl;
+    cout << endl;
+    cout <<"(A) ddition" <<endl;
+    cout <<"(S) ubtraction" << endl;
+    cout <<"(Q) uit" << endl;
+    cout << endl;
+    cout <<"Enter your option: ";
+    cin >> op;
+}
+
+
